@@ -4,11 +4,13 @@
 using namespace std;
 
 int main(){
-    int n, k, w, resultado;
-    cin >> k >> n >> w;
-
-    resultado = w%()
-
+    int w;
+    cin >> w;
+    if (w%2){
+        cout << "NÃO";
+    }else{
+        cout << "SIM";
+    }
     
     return 0;
 }
