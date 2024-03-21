@@ -4,13 +4,8 @@
 using namespace std;
 
 int main(){
-    int w;
-    cin >> w;
-    if (w%2){
-        cout << "NÃO";
-    }else{
-        cout << "SIM";
-    }
-    
+    int n, k, w, resultado;
+    cin >> k >> n >> w;
+    resultado = ((k*(k*w))/k*2)-n;
     return 0;
 }
